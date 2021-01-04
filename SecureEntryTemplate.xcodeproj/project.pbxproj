@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		79662583259F1C1D0057EEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79662582259F1C1D0057EEE9 /* AppDelegate.swift */; };
-		79662585259F1C1D0057EEE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79662584259F1C1D0057EEE9 /* SceneDelegate.swift */; };
-		79662587259F1C1D0057EEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79662586259F1C1D0057EEE9 /* ViewController.swift */; };
-		7966258A259F1C1D0057EEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79662588259F1C1D0057EEE9 /* Main.storyboard */; };
+		79662587259F1C1D0057EEE9 /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79662586259F1C1D0057EEE9 /* PinViewController.swift */; };
 		7966258C259F1C210057EEE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7966258B259F1C210057EEE9 /* Assets.xcassets */; };
 		7966258F259F1C210057EEE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7966258D259F1C210057EEE9 /* LaunchScreen.storyboard */; };
+		7966259C259F1DF40057EEE9 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7966259B259F1DF40057EEE9 /* PinView.swift */; };
+		7966259F259F1E1B0057EEE9 /* PinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7966259E259F1E1B0057EEE9 /* PinView.xib */; };
+		796625A4259F233A0057EEE9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796625A3259F233A0057EEE9 /* Utils.swift */; };
+		796625B2259F2E9F0057EEE9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796625B1259F2E9F0057EEE9 /* Constants.swift */; };
+		796625B8259F3DFB0057EEE9 /* KeyChainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796625B7259F3DFB0057EEE9 /* KeyChainError.swift */; };
+		796625BB259F3EC00057EEE9 /* SecretItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796625BA259F3EC00057EEE9 /* SecretItem.swift */; };
+		796625BF259F4B240057EEE9 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796625BE259F4B240057EEE9 /* DestinationViewController.swift */; };
+		796625C3259F734F0057EEE9 /* BiometryAuthContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796625C2259F734F0057EEE9 /* BiometryAuthContext.swift */; };
+		796625C6259F73ED0057EEE9 /* BiometryAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796625C5259F73ED0057EEE9 /* BiometryAuthError.swift */; };
+		796625C9259F74EB0057EEE9 /* PinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796625C8259F74EB0057EEE9 /* PinViewModel.swift */; };
+		796625D1259F785B0057EEE9 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796625D0259F785B0057EEE9 /* AppSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7966257F259F1C1D0057EEE9 /* SecureEntryTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureEntryTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79662582259F1C1D0057EEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79662584259F1C1D0057EEE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79662586259F1C1D0057EEE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		79662589259F1C1D0057EEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79662586259F1C1D0057EEE9 /* PinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
 		7966258B259F1C210057EEE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7966258E259F1C210057EEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79662590259F1C210057EEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7966259B259F1DF40057EEE9 /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		7966259E259F1E1B0057EEE9 /* PinView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinView.xib; sourceTree = "<group>"; };
+		796625A3259F233A0057EEE9 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		796625B1259F2E9F0057EEE9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		796625B7259F3DFB0057EEE9 /* KeyChainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainError.swift; sourceTree = "<group>"; };
+		796625BA259F3EC00057EEE9 /* SecretItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretItem.swift; sourceTree = "<group>"; };
+		796625BE259F4B240057EEE9 /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		796625C2259F734F0057EEE9 /* BiometryAuthContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometryAuthContext.swift; sourceTree = "<group>"; };
+		796625C5259F73ED0057EEE9 /* BiometryAuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometryAuthError.swift; sourceTree = "<group>"; };
+		796625C8259F74EB0057EEE9 /* PinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewModel.swift; sourceTree = "<group>"; };
+		796625D0259F785B0057EEE9 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +75,63 @@
 			isa = PBXGroup;
 			children = (
 				79662582259F1C1D0057EEE9 /* AppDelegate.swift */,
-				79662584259F1C1D0057EEE9 /* SceneDelegate.swift */,
-				79662586259F1C1D0057EEE9 /* ViewController.swift */,
-				79662588259F1C1D0057EEE9 /* Main.storyboard */,
+				796625A3259F233A0057EEE9 /* Utils.swift */,
+				796625B1259F2E9F0057EEE9 /* Constants.swift */,
+				796625D0259F785B0057EEE9 /* AppSettings.swift */,
+				796625CE259F77CC0057EEE9 /* KeyChain */,
+				796625CD259F77C30057EEE9 /* Biometry */,
+				796625B5259F3DBB0057EEE9 /* View */,
 				7966258B259F1C210057EEE9 /* Assets.xcassets */,
 				7966258D259F1C210057EEE9 /* LaunchScreen.storyboard */,
 				79662590259F1C210057EEE9 /* Info.plist */,
 			);
 			path = SecureEntryTemplate;
+			sourceTree = "<group>";
+		};
+		796625B5259F3DBB0057EEE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				796625BD259F4B010057EEE9 /* PinViewController */,
+				796625D3259F88B10057EEE9 /* DestinationViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		796625BD259F4B010057EEE9 /* PinViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79662586259F1C1D0057EEE9 /* PinViewController.swift */,
+				796625C8259F74EB0057EEE9 /* PinViewModel.swift */,
+				7966259B259F1DF40057EEE9 /* PinView.swift */,
+				7966259E259F1E1B0057EEE9 /* PinView.xib */,
+			);
+			path = PinViewController;
+			sourceTree = "<group>";
+		};
+		796625CD259F77C30057EEE9 /* Biometry */ = {
+			isa = PBXGroup;
+			children = (
+				796625C2259F734F0057EEE9 /* BiometryAuthContext.swift */,
+				796625C5259F73ED0057EEE9 /* BiometryAuthError.swift */,
+			);
+			path = Biometry;
+			sourceTree = "<group>";
+		};
+		796625CE259F77CC0057EEE9 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				796625BA259F3EC00057EEE9 /* SecretItem.swift */,
+				796625B7259F3DFB0057EEE9 /* KeyChainError.swift */,
+			);
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
+		796625D3259F88B10057EEE9 /* DestinationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				796625BE259F4B240057EEE9 /* DestinationViewController.swift */,
+			);
+			path = DestinationViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +193,7 @@
 			files = (
 				7966258F259F1C210057EEE9 /* LaunchScreen.storyboard in Resources */,
 				7966258C259F1C210057EEE9 /* Assets.xcassets in Resources */,
-				7966258A259F1C1D0057EEE9 /* Main.storyboard in Resources */,
+				7966259F259F1E1B0057EEE9 /* PinView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +204,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79662587259F1C1D0057EEE9 /* ViewController.swift in Sources */,
+				796625B8259F3DFB0057EEE9 /* KeyChainError.swift in Sources */,
+				796625C6259F73ED0057EEE9 /* BiometryAuthError.swift in Sources */,
+				796625D1259F785B0057EEE9 /* AppSettings.swift in Sources */,
+				796625BB259F3EC00057EEE9 /* SecretItem.swift in Sources */,
+				796625B2259F2E9F0057EEE9 /* Constants.swift in Sources */,
+				796625C3259F734F0057EEE9 /* BiometryAuthContext.swift in Sources */,
+				796625BF259F4B240057EEE9 /* DestinationViewController.swift in Sources */,
+				79662587259F1C1D0057EEE9 /* PinViewController.swift in Sources */,
+				7966259C259F1DF40057EEE9 /* PinView.swift in Sources */,
 				79662583259F1C1D0057EEE9 /* AppDelegate.swift in Sources */,
-				79662585259F1C1D0057EEE9 /* SceneDelegate.swift in Sources */,
+				796625C9259F74EB0057EEE9 /* PinViewModel.swift in Sources */,
+				796625A4259F233A0057EEE9 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		79662588259F1C1D0057EEE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79662589259F1C1D0057EEE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7966258D259F1C210057EEE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
